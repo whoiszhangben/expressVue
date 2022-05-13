@@ -5,10 +5,12 @@
 </template>
 
 <script>
-
+import * as utility from "whoiszhangben-utility";
 export default {
   
-   
+  mounted() {
+      console.log(utility.url.test);
+  } 
     
 }
 </script>

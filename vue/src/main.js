@@ -11,6 +11,7 @@ import Intro from './page/intro/intro.vue';
 import Media from './page/media/media.vue';
 import Title from './components/title.vue';
 import QrScan from './page/qrscan/qrscan.vue';
+import Test from "./page/test/index.vue";
 import vueRouter from 'vue-router';
 
 
@@ -91,6 +92,18 @@ new Vue({
       content: {
         title: '扫码登录',
         desc: '企业微信开放了消息发送接口，企业可以使用这些接口让自定义应用与企业微信后台或用户间进行双向通信。'
+      }
+    },
+    {
+      name: 'test',
+      path: '/test',
+      components: {
+        default: Test,
+        title: Title
+      },
+      content: {
+        title: '测试Vue特性',
+        desc: '测试vue特性的demo示例'
       }
     }
     

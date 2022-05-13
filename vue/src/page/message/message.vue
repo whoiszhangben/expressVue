@@ -119,6 +119,7 @@
 </template>
 
 <script>
+import * as utility from "whoiszhangben-utility";
 import ContactsPicker from '../../components/contactsPicker.vue'
 import {post} from 'axios';
 export default {
@@ -185,7 +186,7 @@ export default {
     
     methods:{
         async onSubmit() {
-
+            utility.broadcastManager.default.publish("aaa", "aaa 发布变化了");
             console.log(this.form);
             try{
                 let {data:{errcode,errmsg}} = await post('api/message/send',{            
