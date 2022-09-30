@@ -141,7 +141,7 @@ export default {
           totag: '',
           safe: false,          
           text: {
-              content:'Hello！欢迎使用企业微信开发者 CodeSamples'
+              content:'Hello！欢迎使用测试系统'
           },
           image:{
               media_id:''
@@ -159,7 +159,7 @@ export default {
           },
           textcard:{
               title:'Hello',
-              description:'欢迎使用企业微信开发者 CodeSamples',
+              description:'欢迎使用测试系统',
               url:'http://work.weixin.qq.com',
               btntxt:''
           },

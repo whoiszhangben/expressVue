@@ -2,14 +2,12 @@
   <div class="app">
     <el-container class="wrap">
       <el-header class="header">
-          <h1 class="logo"><img src="./assets/logo.svg" /><span class="title">CodeSamples</span></h1>
+          <h1 class="logo"><span class="title">mynote</span></h1>
           <el-menu 
           class="navigation el-menu-demo" 
           mode="horizontal" 
           >
-            <el-menu-item index="1"><a href="https://open.work.weixin.qq.com/developer/portal" target="_blank">开发者中心</a></el-menu-item>
-            <el-menu-item index="2"><a href="https://work.weixin.qq.com/api/doc/" target="_blank">开发文档</a></el-menu-item>
-            <el-menu-item index="4"><a href="https://github.com/WecomTeam/CodeSameples" target="_blank">Github</a></el-menu-item>
+            <el-menu-item index="1"><a href="http://127.0.0.1" target="_blank">个人首页</a></el-menu-item>
           </el-menu>
       </el-header>
       <el-container>
@@ -22,7 +20,7 @@
                 <i class="el-icon-monitor"></i>
                 <span slot="title">概览</span>
               </el-menu-item>
-              <el-menu-item index="contacts">
+              <!-- <el-menu-item index="contacts">
                 <i class="el-icon-user"></i>
                 <span slot="title">通讯录管理</span>
               </el-menu-item>
@@ -41,12 +39,23 @@
               <el-menu-item index="media">
                 <i class="el-icon-picture-outline"></i>
                 <span slot="title">素材管理</span>
-              </el-menu-item>
-              <el-menu-item index="test">
+              </el-menu-item> -->
+              <el-menu-item index="formCustom">
                 <i class="el-icon-picture-outline"></i>
-                <span slot="title">测试用法</span>
+                <span slot="title">表单拖拉拽</span>
               </el-menu-item>
-              
+              <el-menu-item index="dataCustom">
+                <i class="el-icon-picture-outline"></i>
+                <span slot="title">大屏拖拉拽</span>
+              </el-menu-item>
+              <el-menu-item index="reference">
+                <i class="el-icon-picture-outline"></i>
+                <span slot="title">参考资料</span>
+              </el-menu-item>
+              <el-menu-item index="tools">
+                <i class="el-icon-picture-outline"></i>
+                <span slot="title">前端工具</span>
+              </el-menu-item>
             </el-menu>
         </el-aside>
         <el-main style="padding:0;">
